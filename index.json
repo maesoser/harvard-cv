@@ -1,0 +1,97 @@
+{
+    "name": "Sergio Maeso",
+    "profiles": [
+        "https://www.linkedin.com/in/maesoser",
+        "https://github.com/maesoser",
+        "cv@maesoser.me"
+    ],
+    "education": [
+        { "university": "University Carlos III", "location": "Madrid, Spain", "details": "Bilingual Telematics Engineering Degree" },
+        { "university": "Panepistimio Pireas", "location": "Athens, Greece", "details": "Erasmus Program" }
+    ],
+    "experience" : [
+        {
+            "title": "Solutions Engineer",
+            "company": "Cloudflare",
+            "location": "London, UK",
+            "from": "2020",
+            "to": null,
+            "description": [
+                "Educating, empowering, and ensuring the long-term success of Enterprise customers.",
+                "Meeting with qualified leads to clarify requirements and address technical inquiries for the project.",
+                "Translating the customers requirements into a solution that fit the customer's needs and expectations.",
+                "Building and leading proof of concepts (PoCs) to refine the scope and asses the feasibility of the proposed solution.",
+                "Training and onboarding new customers and partners via video-conference, onsite visits, and documentation."
+            ]
+        },
+        {
+            "title": "Support Engineer",
+            "company": "Nuage Networks From Nokia",
+            "location": "Madrid, Spain",
+            "from": "2018",
+            "to": "2020",
+            "description": [
+                "Specialized in implementing Nokia's Software-Defined Wide Area Network (SD-WAN) solution, catering to the needs of Service Providers.",
+                "Worked with variousnetwork protocols and technologies such as BGP, VXLAN and IPSec, in addition to interacting with REST APIs, automation frameworks, and Linux based systems.",
+                "Actively contributed to the enhancement of internal tools and processes, while also creating comprehensive documentation and training new engineers and operators."
+            ]
+        },
+        {
+            "title": "Junior HPC Consultant",
+            "company": "BBVA Corporate and Investment Banking (CIB)",
+            "location": "Madrid, Spain",
+            "from": "2018",
+            "to": "2018",
+            "description": [
+                "Managing different High Performance Computing technologies used by BBVA for corporate and investment banking using devOps tools like Ansible.",
+                "Administration, configuration, and specialized development of enterprise-class grid computing software like IBM Platform Symphony, using both C++ and Java.",
+                "Managing of ultra low latency publish-subscribe-based messaging technologies.",
+                "Configuration, administration, and architectural improvements of in-memory data grid solutions, specially Oracle Coherence but also Hazelcast IMDG, including high availability, high scalability developments in Java and JVM fine tuning."
+            ]
+        },
+        {
+            "title": "Research Intern",
+            "company": "University Carlos III, GAST LAB",
+            "location": "Madrid, Spain",
+            "from": "2017",
+            "to": "2016",
+            "description": [
+                "Simulation, development and improvement of several TCP optimizations based on AQM (CoDel and PIE) and ECN mechanisms, aiming to reduce latency and maximize link utilization, especially in data centers (TCP incast). Under this project I worked with network simulator ns-2, implementing new algorithms on it, and extended my knowledge on transport layer mechanisms.",
+                "Improvement of new discovering protocols to be utilized together with the CoAP protocol for ad-hoc networks of IoT devices, aiming to reduce data overhead and power consumption due to the limitations of these devices. On this project I an ns-3 application module which mimics the behaviour of an IoT node using CoAP and mDNS. I implemented mDNS, CoAP and the main code for the node on C++."
+            ]
+        },
+        {
+            "title": "Research Intern",
+            "company": "IMDEA Networks",
+            "location": "Madrid, Spain",
+            "from": "2016",
+            "to": "2015",
+            "description": [
+                "Development an Android application using Android Studio for testing infrastructure-less and context-based services based on opportunistic wireless terminal-to-terminal communications.",
+                "Improvement of an experimental indoor localization system based on 802.11 signal strength. On this project I created and embedded application on C and using libpcap that transmits information about the networks it detects to the controller."
+            ]
+        }
+    ],
+    "skills": [
+        "C and C++",
+        "Python",
+        "Golang",
+        "Shell Scripting",
+        "Network Protocols",
+        "Architecture Design",
+        "Linux systems",
+        "DevOps"
+    ],
+    "merits": [
+        {
+            "title": "Degree Final Thesis",
+            "value": "Mark: 9.7 (Honour Mention)",
+            "url": "https://e-archivo.uc3m.es/bitstream/handle/10016/27706/TFG_Sergio_Maeso_Jimenez.pdf?sequence=1&isAllowed=y",
+            "description": "Active Queue Management mechanisms and its interaction with TCP Congestion Control algorithms. is an analysis of the interactions between the most common Congestion Control algorithms in use (NewReno, CTCP, Cubic and LedBat) and some AQM mechanisms like RED, REM, PIE and CoDel et al. It was performed by simulating several characteristic scenarios using ns-2 simulator and realistic tmix traffic traces. An development of the BBR algorithm that was written but not included in this work were used by other researches in following papers."
+        }
+    ],
+    "languages": [
+        { "name": "spanish", "competence": "native" },
+        { "name": "english", "competence": "bilingual" }
+    ]
+}
